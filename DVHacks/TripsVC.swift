@@ -10,20 +10,9 @@ import UIKit
 
 class TripsVC: UIViewController {
 
-    @IBOutlet weak var segMenuView: HBSegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
-        segMenuView.items = ["Weekly", "Fornightly", "Monthly"]
-        segMenuView.borderColor = .clear
-        segMenuView.selectedLabelColor = .white
-        segMenuView.unselectedLabelColor = .red
-        segMenuView.backgroundColor = .lightGray
-        segMenuView.thumbColor = .black
-        segMenuView.selectedIndex = 1
-       // segMenuView.addTarget(self, action: #selector(segmentValueChanged(_:)), for: .valueChanged)
-
-        // Do any additional setup after loading the view.
-    }
+           }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

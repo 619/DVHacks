@@ -1,0 +1,6 @@
+framework module Pods_DVHacksUITests {
+  umbrella header "Pods-DVHacksUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

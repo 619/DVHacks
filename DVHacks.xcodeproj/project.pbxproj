@@ -11,7 +11,6 @@
 		2BFC64E027BFE4D45B84D956 /* Pods_DVHacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170D7C15228C29276BED46C9 /* Pods_DVHacks.framework */; };
 		75CCC1863CBADBAE4FD1B471 /* Pods_DVHacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA84110E9DB180D59B028C0 /* Pods_DVHacksTests.framework */; };
 		C50845BE20827F9C0056DB0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50845BD20827F9C0056DB0B /* AppDelegate.swift */; };
-		C50845C020827F9C0056DB0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50845BF20827F9C0056DB0B /* ViewController.swift */; };
 		C50845C320827F9C0056DB0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50845C120827F9C0056DB0B /* Main.storyboard */; };
 		C50845C520827F9E0056DB0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50845C420827F9E0056DB0B /* Assets.xcassets */; };
 		C50845C820827F9E0056DB0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50845C620827F9E0056DB0B /* LaunchScreen.storyboard */; };
@@ -21,7 +20,15 @@
 		C50845EE20828ECE0056DB0B /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50845ED20828ECE0056DB0B /* ProfileCell.swift */; };
 		C50845F0208292AF0056DB0B /* HBSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50845EF208292AF0056DB0B /* HBSegmentedControl.swift */; };
 		C50845F2208294E60056DB0B /* TripsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50845F1208294E60056DB0B /* TripsVC.swift */; };
-		C50845F42082B10E0056DB0B /* SurveyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50845F32082B10E0056DB0B /* SurveyVC.swift */; };
+		C51F48772083544600EA4A2C /* UpcomingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51F48762083544600EA4A2C /* UpcomingVC.swift */; };
+		C59851722082D90F00FCDCB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59851712082D90F00FCDCB8 /* LoginViewController.swift */; };
+		C59851742082DA8600FCDCB8 /* SurveyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59851732082DA8500FCDCB8 /* SurveyVC.swift */; };
+		C59851762082DC3400FCDCB8 /* homeCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59851752082DC3400FCDCB8 /* homeCellTableViewCell.swift */; };
+		C59851782082F98500FCDCB8 /* TripObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59851772082F98500FCDCB8 /* TripObj.swift */; };
+		C598517C20833B6500FCDCB8 /* TripVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C598517B20833B6500FCDCB8 /* TripVC.swift */; };
+		C598517E2083407100FCDCB8 /* TripObj2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C598517D2083407100FCDCB8 /* TripObj2.swift */; };
+		C5F160CC2082C21100C1A9D4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F160CB2082C21100C1A9D4 /* HomeVC.swift */; };
+		C5F160CE2082CD3300C1A9D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5F160CD2082CD3300C1A9D4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +59,6 @@
 		AEA84110E9DB180D59B028C0 /* Pods_DVHacksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DVHacksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50845BA20827F9C0056DB0B /* DVHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50845BD20827F9C0056DB0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C50845BF20827F9C0056DB0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C50845C220827F9C0056DB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C50845C420827F9E0056DB0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C50845C720827F9E0056DB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,7 +73,15 @@
 		C50845ED20828ECE0056DB0B /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		C50845EF208292AF0056DB0B /* HBSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSegmentedControl.swift; sourceTree = "<group>"; };
 		C50845F1208294E60056DB0B /* TripsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsVC.swift; sourceTree = "<group>"; };
-		C50845F32082B10E0056DB0B /* SurveyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyVC.swift; sourceTree = "<group>"; };
+		C51F48762083544600EA4A2C /* UpcomingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingVC.swift; sourceTree = "<group>"; };
+		C59851712082D90F00FCDCB8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C59851732082DA8500FCDCB8 /* SurveyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyVC.swift; sourceTree = "<group>"; };
+		C59851752082DC3400FCDCB8 /* homeCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeCellTableViewCell.swift; sourceTree = "<group>"; };
+		C59851772082F98500FCDCB8 /* TripObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripObj.swift; sourceTree = "<group>"; };
+		C598517B20833B6500FCDCB8 /* TripVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripVC.swift; sourceTree = "<group>"; };
+		C598517D2083407100FCDCB8 /* TripObj2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripObj2.swift; sourceTree = "<group>"; };
+		C5F160CB2082C21100C1A9D4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C5F160CD2082CD3300C1A9D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F97C59A7D1467CE37AD82EE1 /* Pods-DVHacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVHacksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DVHacksUITests/Pods-DVHacksUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,12 +161,19 @@
 		C50845BC20827F9C0056DB0B /* DVHacks */ = {
 			isa = PBXGroup;
 			children = (
+				C59851712082D90F00FCDCB8 /* LoginViewController.swift */,
+				C5F160CD2082CD3300C1A9D4 /* GoogleService-Info.plist */,
+				C59851732082DA8500FCDCB8 /* SurveyVC.swift */,
 				C50845BD20827F9C0056DB0B /* AppDelegate.swift */,
-				C50845BF20827F9C0056DB0B /* ViewController.swift */,
 				C50845EB20828E050056DB0B /* ProfileVC.swift */,
-				C50845F32082B10E0056DB0B /* SurveyVC.swift */,
 				C50845EF208292AF0056DB0B /* HBSegmentedControl.swift */,
 				C50845C120827F9C0056DB0B /* Main.storyboard */,
+				C59851752082DC3400FCDCB8 /* homeCellTableViewCell.swift */,
+				C5F160CB2082C21100C1A9D4 /* HomeVC.swift */,
+				C598517B20833B6500FCDCB8 /* TripVC.swift */,
+				C51F48762083544600EA4A2C /* UpcomingVC.swift */,
+				C598517D2083407100FCDCB8 /* TripObj2.swift */,
+				C59851772082F98500FCDCB8 /* TripObj.swift */,
 				C50845F1208294E60056DB0B /* TripsVC.swift */,
 				C50845ED20828ECE0056DB0B /* ProfileCell.swift */,
 				C50845C420827F9E0056DB0B /* Assets.xcassets */,
@@ -294,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C50845C820827F9E0056DB0B /* LaunchScreen.storyboard in Resources */,
+				C5F160CE2082CD3300C1A9D4 /* GoogleService-Info.plist in Resources */,
 				C50845C520827F9E0056DB0B /* Assets.xcassets in Resources */,
 				C50845C320827F9C0056DB0B /* Main.storyboard in Resources */,
 			);
@@ -434,6 +456,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DVHacks/Pods-DVHacks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -441,6 +464,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -476,13 +500,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59851742082DA8600FCDCB8 /* SurveyVC.swift in Sources */,
 				C50845EC20828E050056DB0B /* ProfileVC.swift in Sources */,
+				C51F48772083544600EA4A2C /* UpcomingVC.swift in Sources */,
+				C59851762082DC3400FCDCB8 /* homeCellTableViewCell.swift in Sources */,
+				C5F160CC2082C21100C1A9D4 /* HomeVC.swift in Sources */,
 				C50845F2208294E60056DB0B /* TripsVC.swift in Sources */,
+				C598517E2083407100FCDCB8 /* TripObj2.swift in Sources */,
+				C598517C20833B6500FCDCB8 /* TripVC.swift in Sources */,
 				C50845F0208292AF0056DB0B /* HBSegmentedControl.swift in Sources */,
-				C50845F42082B10E0056DB0B /* SurveyVC.swift in Sources */,
+				C59851722082D90F00FCDCB8 /* LoginViewController.swift in Sources */,
 				C50845EE20828ECE0056DB0B /* ProfileCell.swift in Sources */,
-				C50845C020827F9C0056DB0B /* ViewController.swift in Sources */,
 				C50845BE20827F9C0056DB0B /* AppDelegate.swift in Sources */,
+				C59851782082F98500FCDCB8 /* TripObj.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

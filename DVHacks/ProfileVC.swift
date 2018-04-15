@@ -18,14 +18,14 @@ class ProfileVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ProfileCell", for: indexPath) as! ProfileCell
-        cell.optionLabel.text = nameArr[indexPath.row] + ""
+        cell.optionLabel.text = nameArr[indexPath.row]
         return cell
     }
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+      
         // Do any additional setup after loading the view.
     }
 
